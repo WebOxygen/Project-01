@@ -1,0 +1,2219 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="" />
+<meta name="author" content="web24service">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Title -->
+<title>Dermala</title>
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/png" href="assets/images/fevicon.png">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+<!-- Font awesome CSS -->
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+<!-- Animate CSS -->
+<link rel="stylesheet" href="assets/css/animate.min.css">
+
+<!-- slick slider CSS -->
+<link rel="stylesheet" href="assets/css/slick.css">
+
+<!-- Main CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- page7 CSS -->
+<link rel="stylesheet" href="assets/css/page7.css">
+
+<!-- page8 CSS -->
+<link rel="stylesheet" href="assets/css/page8.css">
+
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="assets/css/responsive.css">
+
+<!-- jQuery --> 
+<script src="assets/js/jquery-3.4.1.min.js"></script>
+    <style>
+     body{
+    color:#565656;
+    
+  }
+  .np8-fobo-slider {
+    max-width: 520px;
+    width: 100%;
+  margin: 0 auto;
+}
+h2{
+ font-family: "'Lora', serif"; 
+}
+.np8-fobo-for {
+    margin-bottom: 5px;
+}
+.np8-fobo-thumb {
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.np8-fobo-thumb.slick-current{
+    opacity: .6;
+}
+.np8-fobo-thumb:last-child{
+    margin: 0;
+}
+.np8-fobo-slider .slick-list {
+    padding: 0 !important;
+}
+
+.np8-fobo-slider .slick-track {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.np8-banner-details sup, .np8-scabtily-sec .hp-fobo-details sup {
+	top: -1.2em;
+	font-size: 20px;
+}
+.np8-banner-details .np6-banner-review p{
+    font-family: "Gotham";
+    font-size: 14px;
+    color: #232323;
+}
+.np8-banner-details .star-block i {
+	color: #f6cd0d;
+}
+.np8-banner-details {
+	padding-left: 40px;
+}
+.np8-item-top ul {
+	margin: 0 0 10px 81px;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+.np8-item-top ul li {
+	list-style: none;
+	color: #191919;
+    font-family: "Gotham";
+}
+.np8-item-top ul li h5{
+    font-size: 20px;
+    margin: 0;
+}
+.np8-banner-item {
+	margin: 30px 0 0;
+}
+
+.np8-banner-item-details {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	padding: 48px 22px 20px;
+	border-radius: 15px;
+    position: relative;
+/*    background-color: #fff;*/
+    transition: .3s;
+    flex-wrap: wrap;
+}
+.np8-banner-item-details:hover {
+    background-color: #f2f2f2;
+}
+.np8-item-img {
+	width: 100%;
+}
+ .np8-item-img{
+	font-family: "GothamLight";
+   line-height:18px;
+  }
+.np8-item-top h5 {
+	color: #242424;
+	margin: 0 0 9px 20px;
+    font-family: "Gotham";
+    font-size: 16px;
+}
+.np8-type-acen {
+	text-align: center;
+	padding: 20px 0 10px;
+}
+.np8-type-acen-title {
+    min-height: 50px;
+}
+.np8-type-acen-title h5 {
+	font-size: 15px;
+	margin: 0 0 4px;
+	line-height: 18px;
+    white-space: normal;
+}
+.np8-type-acen-title p{
+	line-height: 16px;
+    margin:0px;
+    font-family: "GothamLight";
+}
+.np8-b-check{
+    width: 31%;
+    position: relative;
+    white-space: nowrap;
+    font-family: "Gotham";
+}
+
+.np8-item-small-img {
+	position: absolute;
+	top: -36px;
+	left: 50%;
+	margin-left: -28px;
+}
+.np8-item-small-img span{
+    height: 56px;
+    width: 56px;
+    border: 3px solid #f2f2f2;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+        
+}
+.np8-item-small-img span img{
+    width: 100%;
+        
+}
+
+.np8-b-check.np8-bg-color input[type="checkbox"].plan-check-input + label.plan-check-label, 
+.np8-b-check.np8-bg-color input[type="radio"].plan-check-input + label.plan-check-label{
+
+}
+.np8-b-check .plan-check-label2,
+.np8-b-check .plan-check-label {
+	font-size: 15px;
+    
+}
+.np8-b-check input[type="checkbox"], .np8-b-check input[type="radio"]{
+    opacity: 0;
+    position: absolute;
+}
+.np8-b-check input[type="checkbox"].plan-check-input + label.plan-check-label, 
+.np8-b-check input[type="radio"].plan-check-input + label.plan-check-label {
+	cursor: pointer;
+	position: relative;
+	width: 100%;
+/*    background-color: #f9f9f9;*/
+	border: 1px solid #8a8a8a;
+	border-radius: 10px;
+	padding: 10px 12px;
+    color: #191919;
+	font-size: 14px;
+}
+.np8-price {
+	color: #00beba;
+	font-size: 16px;
+}
+.np8-save {
+	display: inline-block;
+	background-color: #6e6eb9;
+	color: #fff;
+	padding: 0 8px;
+	border-radius: 4px;
+}
+.np8-b-check input[type="checkbox"].plan-check-input:checked + label.plan-check-label, 
+.np8-b-check input[type="radio"].plan-check-input:checked + label.plan-check-label{    
+    background-color: rgb(0 191 186 / 8%);
+	border: 1px solid #00beba;
+}
+
+.np8-b-check input[type="checkbox"].plan-check-input:checked + label.plan-check-label::before, 
+.np8-b-check input[type="radio"].plan-check-input:checked + label.plan-check-label::before {
+    opacity: 1;
+}
+.np8-b-check input[type="checkbox"].plan-check-input + label.plan-check-label::before, 
+.np8-b-check input[type="radio"].plan-check-input + label.plan-check-label::before {
+	width: 20px;
+	height: 20px;
+    line-height: 20px;
+    background-position: center center;
+	position: absolute;
+	right: -6px;
+	top: -8px;
+	border-radius: 50%;
+	content: "";
+	margin-top: 0;
+    background-color: #00beba;
+    background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/checks-white.svg?v=1614371960);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.np8-banner-btn {
+	text-align: center;
+}
+.np8-banner-btn .main-btn {
+	border-radius: 0;
+	background-color: #00beba;
+	padding: 15px 40px;
+	font-size: 14px;
+	margin-top: 40px;
+	font-family: "Gotham";
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    width: 100%;
+}
+
+.np8-banner-btn span {
+	width: 12px;
+	margin: 0 0 0 5px;
+    display: inline-block;
+}
+.np8-up-item{
+    padding: 17px 24px;
+}
+.np8-up-item .plan-check-label {
+	display: flex;
+	justify-content: space-between;
+	padding: 14px 20px !important;
+    margin: 0;
+}
+
+.np8-up-item .np8-b-check {
+    width: 49%;
+}
+
+
+
+.np8-scabtily-sec .hp-fobo-details h6 {
+	text-transform: inherit;
+}
+.np8-scabtily-sec .hp-fobo-details mark {
+	background-image: linear-gradient(120deg, #e7f8f8 0%, #e7f8f8 100%);
+	background-size: 100% 30%;
+	background-position: 0 89%;
+}
+.np8-scabtily-sec .hp-fobo-details ul {
+	margin: 47px 0 25px;
+}
+
+.np8-scabtily-sec .border-li-top {
+	border-top: 2px solid #232323;
+	border-bottom: 2px solid #232323;
+}
+.np8-scabtily-sec .border-li-top .text-uppercase {
+    color: #232323;
+	margin: 0 0 5px;
+}
+.np8-scabtily-sec .border-li-top p{
+    color: #838383;
+}
+.np8-scabtily-sec .text-uppercase {
+	text-transform: uppercase;
+	font-family: "Gotham";
+	color: #838383;
+}
+.np8-scabtily-sec .border-ul li, .np8-scabtily-sec .border-ul li:last-child  {
+	border-bottom: 2px solid #d9d9d9;
+	padding: 15px 0px;
+    border-top: none;
+}
+
+.np7-fobo-details h2{
+    font-family: "GothamLight";
+    margin: 0 0 24px;
+}
+.np7-fobo-details {
+	padding: 0 0 0 80px;
+}
+.np7-fobo-details ul{
+    margin: 25px 0 10px;
+    padding: 0;
+}
+.np7-fobo-details ul li{
+    padding-left: 25px;
+    width: 100%;
+    position: relative;
+    list-style: none;
+    margin-top: 16px;
+}
+  
+  .np7-fobo-details ul li:before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 15px;
+    background-image: url(../images/arrow-blue.svg);
+    top: 50%;
+    margin-top: -8px;
+    left: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.np7-fobo-details ul li.li-item1:before{
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/pad-icon.svg?v=1614448093);
+}
+.np7-fobo-details ul li.li-item2:before{
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/cleanser-icon.svg?v=1614448082);
+}
+.np7-fobo-details ul li.li-item3:before{
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/supplement-icon.svg?v=1614448055);
+}
+.np7-fobo-details ul li.li-item4:before{
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/patch-icon.png?v=1614448067);
+}
+.np7-micro {
+	background-color: #e5f7f9;
+}
+.np7-micro .np6-micro-img-area h4 {
+	color: #00beba;
+}
+.np7-btn {
+	color: #232323;
+	font-size: 15px;
+	margin-top: 25px;
+	border: 1px solid #00beba;
+	text-transform: uppercase;
+	padding: 14px 32px;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-family: "Gotham";
+}
+.np7-btn:hover {
+    text-decoration: none;
+    background-color: #00beba;
+    color: #fff;
+}
+
+.np8-micro-result{
+    position: relative;
+}
+.np8-micro-result::before {
+	position: absolute;
+	width: 100%;
+	height: 284px;
+	left: 0px;
+	top: 0px;
+	content: "";
+	background-color: #6e6eb9;
+}
+.np8-micro-result .result-block span {
+	color: #e4f8f8;
+	font-size: 62px;
+}
+.np8-micro-result  .result-text {
+	color: #232323;
+	background-color: #e4f8f8;
+}
+  .strength-ind{
+    font-size: 13px;
+    font-family: "GothamLight";
+  }
+
+/*Page9 css*/
+
+.np9-banner-sec{
+    background-color: #f2f2f2;
+}
+.np9-banner-sec .np7-fobo-details {
+	padding: 0 0 0 60px;
+}
+.np9-banner-sec .np4-banner-badge-area {
+	margin: 30px 0 0 60px;
+}
+.np9-banner-sec .np7-fobo-details h2{
+    font-family: "'Lora', serif";
+font-size: 2.6em;
+    line-height: 1.2em;
+}
+  .np9-banner-sec .np7-fobo-details h2 span{
+   	font-family: "GothamLight"; 
+  }
+.np9-banner-sec .np7-fobo-details ul li.li-item1::before {
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/pad-icon.svg?v=1614448093);
+}
+.np9-banner-sec .np7-fobo-details ul li.li-item2::before {
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/cleanser-icon.svg?v=1614448082);
+}
+.np9-banner-sec .np7-fobo-details ul li.li-item3::before {
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/supplement-icon.svg?v=1614448055);
+}
+.np9-banner-sec .np7-fobo-details ul li.li-item4::before {
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/patch-icon.png?v=1614448067);
+}
+.np9-banner-sec .np4-banner-badge-area ul li {
+    margin: 0 40px 0 0;
+}
+
+
+.np9-pers-title {
+}
+.np9-pers-title h3 {
+	font-family: "GothamLight";
+    color: #232323;
+  text-transform: capitalize;
+}
+.np9-pers-item{
+    margin: 30px 0 0;
+}
+.np9-pers-item h4{
+    text-align: center;
+    font-size: 17px;
+    color: #191919;
+    margin: 0 0 15px;
+  text-transform: capitalize;
+}
+.np9-pers-item .np8-banner-item-details {
+	display: block;
+	padding: 0px;
+}
+.np9-pers-item .np8-item-img {
+	width: 100%;
+	text-align: center;
+    margin: 0 0 15px;
+}
+.np9-pers-item .np8-item-img img{
+    margin: 0 0 20px;
+  border-radius: 10px;
+}
+.np9-pers-item .np8-b-check {
+	width: 100%;
+}
+.np9-pers-item .plan-check-label {
+	display: block;
+  white-space: normal;
+	justify-content: space-between;
+	margin: 0 0 12px;
+    padding: 14px 20px !important;
+}
+
+  .rec-modal-area .plan-check-label{
+  display: flex;
+    justify-content: space-between;
+    margin: 0 0 12px;
+    padding: 14px 20px !important;
+  }
+.np9-free-ship{
+    text-align: center;
+    margin: 10px 0 0;
+    color: #191919;
+}
+.np9-free-ship p{
+    margin: 0;
+}
+.np9-free-ship span{
+    margin: 0 5px 0 0;
+}
+.np9-pers-bottom {
+  text-align: center;
+  margin: 50px 0 0;
+}
+.np9-pers-bottom h5 {
+    font-family: "GothamLight";
+    color: #191919;
+    text-transform: capitalize;
+    font-size: 19px;
+  
+}
+  .np9-pers-bottom .main-btn.one-time {
+      background: #fff;
+    color: #00beba;
+    border: 2px solid #00beba;
+  }
+    .np9-pers-bottom .main-btn:hover{
+      background: #00beba;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+.np9-pers-bottom .main-btn {
+	border-radius: 0;
+	background-color: #00beba;
+	padding: 15px 40px;
+	font-size: 14px;
+	margin-top: 30px;
+	font-family: "Gotham";
+	text-transform: uppercase;
+	letter-spacing: 2px;
+  font-family: 'Gotham';
+  border: 2px solid #00beba;
+}
+.np9-modal p{
+  	margin-top:1em;
+  	margin-bottom:5px;
+ 	font-size:.9em;
+  	line-height:1.2em;
+}
+.np9-modal .modal-dialog {
+	max-width: 1200px;
+    margin: 80px auto 0;
+    width: 95%;
+}
+.np9-modal .modal-title {
+    color: #00bdb9;
+}
+.np9-modal .quiz-item-details h4 {
+	color: #000000;
+	margin: 0 0 30px;
+      text-transform: capitalize;
+}
+.np9-modal .quiz-item-details h4 span {
+	color: #00beba;
+	font-size: 18px;
+  display: block;
+  margin-top:10px;
+}
+.np9-modal .modal-content {
+	background-color: #f2f2f2;
+	border: none;
+	border-radius: 0;
+    padding: 10px 70px 40px;
+}
+.np9-modal .modal-header .close {
+    position: absolute;
+    right: 30px;
+	font-size: 40px;
+	color: #262626;
+}
+.np9-modal .modal-header {
+    justify-content: center;
+    border-bottom: 2px solid #00bfba;
+    margin: 0 0 30px;
+}
+.np9-modal .quiz-items-area {
+	box-shadow: none;
+	padding: 0;
+	background-color: transparent;
+    width: 100%;
+}
+.np9-modal .quiz-item-details {
+	padding: 30px 15px;
+    margin: 0 0 50px;
+}
+.np9-modal .quiz-items-area .step-title-area {
+	text-align: center;
+	margin: 20px;
+}
+.np9-modal .quiz-items-area .step-title-area h3 {
+    color: #010101;
+}
+.np9-modal .quiz-items-area .main-btn.backBtn {
+	border-radius: 0;
+}
+.np9-modal .quiz-items-area .main-btn.continueBtn, .np9-modal .quiz-items-area .main-btn.backBtn {
+	font-family: "Gotham";
+	border-radius: 0;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.kit-options{
+      max-width: 900px;
+    margin: 0 auto;
+}
+
+.rec-modal-area .modal-body {
+	display: flex;
+	justify-content: space-around;
+    flex-wrap: wrap;
+}
+.rec-modal-text.np9-pers-item .np8-banner-item-details {
+	background-color: transparent;
+	border: none;
+}
+.recommended-modal-area .modal-body {
+	display: flex;
+	justify-content: space-between;
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+.recommended-modal-img, .rec-modal-text{
+    width: 45%;
+}
+.rec-modal-area .np9-pers-item {
+	margin: 0;
+}
+.np9-rec-modal-title h3{
+    color: #232323;
+      font-size: 30px;
+    text-transform: capitalize;
+}
+
+.np9-rec-modal-title p{
+ 	margin-bottom:15px; 
+}
+
+
+.np9-personalize-sec .np8-scabtily-sec{
+    padding: 0;
+    margin: 80px 0 0;
+}
+.np9-personalize-sec .np8-scabtily-sec ul {
+  margin: 20px 0;
+  padding: 0;
+}
+.np9-personalize-sec .np8-scabtily-sec ul li {
+  margin:0 0 30px;
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 50px;
+}
+.np9-personalize-sec .np8-scabtily-sec ul li::before {
+	content: '';
+    height: 40px;
+    width: 40px;
+    left: 2px;
+    position: absolute;
+  	background-size:contain;
+    background-repeat: no-repeat;
+      background-position: center;
+}
+
+.np9-personalize-sec .np8-scabtily-sec ul li.thumb:nth-child(1)::before {
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/product-thumb.png?v=1614371439);
+}
+.np9-personalize-sec .np8-scabtily-sec ul li.thumb:nth-child(2)::before {
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/cleanser-thumb.jpg?v=1614455876);
+}
+.np9-personalize-sec .np8-scabtily-sec ul li.thumb:nth-child(3)::before {
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/supplement-thumb.jpg?v=1614455869);
+}
+.np9-personalize-sec .np8-scabtily-sec ul li.thumb:nth-child(4)::before {
+	background-image: url(https://cdn.shopify.com/s/files/1/2284/1227/files/patch-thumb.png?v=1614455800);
+}
+ 
+  
+  
+  
+.np9-personalize-sec .np8-scabtily-sec .page-accordion .card {
+	border-bottom: 2px solid #232323;
+}
+.np9-for-margin li{
+    margin: 0 0 3px !important;
+}
+.page-accordion h5 a.collapsed::before {
+	background: url("../images/down-arrow.svg") no-repeat center center;
+    z-index: 1;
+    background-size: 100%;
+}
+.page-accordion h5 a::before {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	height: 18px;
+	width: 18px;
+	display: block;
+	content: "";
+    background-size: 100% !important;
+    z-index: 1;
+	background: url("https://cdn.shopify.com/s/files/1/2284/1227/files/faq-up-angle.svg?v=1614375303") no-repeat center center;
+}
+
+
+.np4-banner-sec{
+    background-color: #f2f2f2;
+    margin: 0 0 80px;
+}
+.np4-hp-fobo-slider {
+    max-width: 520px;
+    width: 100%;
+}
+.np4-hp-fobo-for {
+    margin-bottom: 10px;
+}
+.np4-hp-fobo-thumb {
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    width: 122px !important;
+    margin-right: 10px;
+}
+.np4-hp-fobo-thumb:last-child{
+    margin: 0;
+}
+.np4-hp-fobo-thumb img{
+    width: 122px !important;
+}
+.np4-hp-fobo-slider .slick-list {
+    padding: 0 !important;
+}
+
+.np4-hp-fobo-slider .slick-track {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.np4-fobo-price {
+  font-family: "Gotham";
+  padding-bottom: 20px;
+  font-size: 40px;
+  color: #00beba;
+}
+.old-price {
+  font-size: 30px;
+  color: #bdbdbd;
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+
+.np4-fobo-banner-details h2 {
+  text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.np4-fobo-banner-details h2 sup {
+	font-size: 16px;
+	top: -24px;
+}
+.np4-fobo-banner-details .main-btn {
+  background-color: #00beba;
+  padding: 11px 57px;
+}
+.np4-fobo-banner-man {
+  display: flex;
+  align-items: center;
+  margin: 45px 0 20px;
+}
+.np4-fobo-banner-man ul {
+  margin: 0 10px 0 15px;
+  padding: 0;
+  display: flex;
+}
+.np4-fobo-banner-man ul li {
+  list-style: none;
+  margin-left: -15px;
+}
+.np4-fobo-banner-man li span {
+  height: 46px;
+  width: 46px;
+  background-color: #6e6eb9;
+  display: inline-block;
+  text-align: center;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  line-height: 40px;
+  overflow: hidden;
+  color: #fff;
+}
+.np4-fobo-banner-man p {
+  margin: 0;
+}
+.np4-fobo-banner-details .check-style {
+  margin: 0;
+    padding: 0;
+}
+.np4-fobo-banner-details strong{
+    font-family: "Gotham";
+}
+
+.np4-banner-badge-area ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.np4-banner-badge-area{
+    margin: 30px 0 0;
+    max-width: 500px;
+    margin: 30px 0 0;
+    margin: 0 auto;
+}
+.np4-banner-badge-area ul li {
+  list-style: none;
+  margin: 0 20px 0 0;
+}
+
+.np4-banner-badge-area ul li:last-child {
+  margin: 0;
+}
+.np4-banner-fobo-slider {
+	padding: 30px 105px;
+	background-color: #fff;
+	border: 1px solid #eeeeee;
+	margin: 80px 0 -90px;
+}
+.np4-banner-fobo-slider .np3-result-bottom-item-area{
+    border: none;
+    padding: 0;
+    margin: 0
+}
+.np4-banner-fobo-slider .np3-result-bottom-item-area p{
+    margin: 0
+}
+.np4-banner-fobo-slider button.slick-arrow{    
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin: 0px 5px;
+    border: 0px;
+    top: 50%;
+    margin-top: -20px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    background-image: url(../images/np4-left-arrow.svg);
+    font-size: 0;
+    left: 20px;
+}
+.np4-banner-fobo-slider button.slick-next.slick-arrow{    
+    background-image: url(../images/np4-next-arrow.svg);
+    font-size: 0;
+    left: inherit;
+    right: 20px;
+}
+.np3-what-area.np4-what .section-title h2{
+    font-size: 40px;
+}
+
+.micro-img-area.np4-micro{
+    background-color: #f5ffff;
+    background-image: none;
+    padding: 80px 0px;
+}
+.micro-img-area.np4-micro .micro-img-details .section-title {
+	padding-left: 0;
+    margin: 0 0 60px;
+}
+.np3-loved-area.np4-loved{
+    background-color: #fff;
+}
+strong{
+    font-family: "Gotham";
+}
+.np4-btn.main-btn{
+    background-color: #00beba;
+    padding: 11px 57px;
+}
+.page-content-block {
+    padding: 80px 0px;
+    padding-top: 80px;
+}
+  .np6-banner-sec {
+	background-color: #f2f2f2;
+}
+  
+.np5-testimonial-sec {
+    background-color: #f7f7f7;
+}
+
+.np5-title h6 {
+    text-transform: uppercase;
+    color: #00bfba;
+    font-family: "Gotham";
+}
+
+.np5-testimonial-items .np5-testimonial-item:nth-of-type(1) {
+    margin-left: 30px;
+}
+
+.np5-testimonial-items .np5-testimonial-item:nth-of-type(2) {
+    margin-left: 80px;
+}
+.np5-testimonial-item {
+    display: flex;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 0 0 20px;
+}
+.np5-testimonial-item:last-child {
+    margin:0px;
+}
+
+.np5-testimonial-img span {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+    box-shadow: 0 0 30px 10px #ededed;
+}
+
+.np5-testimonial-item-txt span {
+    font-size: 60px;
+    position: absolute;
+    color: #ccc;
+    left: 0;
+    top: -28px;
+    display: inline-block;
+    margin: 0;
+    height: 20px;
+    width: 18px;
+}
+
+.np5-testimonial-item-txt p {
+    position: relative;
+}
+
+.np5-testimonial-item-txt h5 {
+    margin: 0 0 30px;
+    font-family: "Gotham";
+    color: #2b293f;
+}
+
+/*np5 Footer Top*/
+
+.np5-footer-top-sec {
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+.np5-footer-top-sec:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    content: '';
+    background-color: #384556;
+}
+
+.np5-footer-top-items {
+    margin: 0 -10px 0 -10px;
+}
+
+.np5-footer-top-item {
+    background-color: #f3dcca;
+    box-shadow: 0 0 0 0 rgba(231, 231, 233, 0.9);
+    border-radius: 15px;
+    overflow: hidden;
+    color: #2d2a3f;
+    font-family: "Gotham";
+    margin: 0 10px;
+    min-height: 278px;
+}
+
+.np5-footer-top-item span {
+    margin: 0 0 20px;
+    font-size: 60px;
+    color: #eeb88c;
+    display: inline-block;
+}
+
+.np5-footer-top-item-text {
+    padding: 50px 30px;
+}
+
+.np5-footer-top-item-text p {
+    font-size: 20px;
+}
+
+.np5-footer-top-items .slick-dots {
+    display: flex;
+    position: absolute;
+    right: 175px;
+    bottom: 10px;
+}
+
+.np5-footer-top-items .slick-dots li {
+    list-style: none;
+}
+
+.np5-footer-top-items .slick-dots li button {
+    list-style: none;
+    font-size: 0;
+    height: 8px;
+    width: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    margin: 0 3px;
+    padding: 0;
+}
+
+.np5-footer-top-items .slick-dots li.slick-active button {
+    background-color: #00bfba;
+}
+
+/*np6 CSS*/
+
+.np6-banner-sec {
+	background-color: #f2f2f2;
+}
+.np6-kit-specific ul.np5-community-check li{
+    width: 100%;
+    font-family: "GothamLight";
+    display: flex;
+    justify-content: space-between;
+}
+.np6-kit-specific ul.np5-community-check li p{
+    padding-right: 15px;
+    margin-bottom: 5px;
+}
+.np6-kit-specific ul.np5-community-check li a{
+    text-decoration: underline;
+}
+.np6-banner-sec .np4-fobo-banner-man{
+    margin-top: 20px;
+}
+.np6-banner-review{
+    display: flex;
+}
+.np6-banner-review .star-block{
+    margin-right: 10px;
+}
+.np6-banner-sec .np4-fobo-banner-details h2{margin-bottom: 10px;}
+.np6-banner-sec .np4-banner-badge-area ul{justify-content: space-between;}
+.np6-banner-price{display: flex;}
+.np6-banner-price > div{margin-right: 20px;}
+.np6-banner-price > div:last-child{margin-right: 0px;}
+.np6-price-block{padding: 10px 0px;display: flex;border: 1px solid #00bfba;background-color: #00bfba;color: #fff;border-radius: 5px;text-transform: uppercase;font-family: "Gotham";}
+.np6-price-block > span{padding: 0px 20px;line-height: 16px;}
+.np6-price-block > span:first-child{border-right: 1px solid #66d9d6;}
+.np6-price-block > span strong{font-size: 24px;}
+.np6-price-block.onTime-price{background-color: transparent;color: #00bfba;width: 100%;}
+.np6-price-block.onTime-price > span{border-color:#00bfba;}
+
+.np6-micro {
+    background-color: #f5ffff;
+}
+.np6-micro .section-title {
+    margin: 0 0 50px;
+}
+.np6-micro-img-area{
+    margin: 0 0 30px;
+}
+.np6-micro-img-area img {
+    margin: 0 0 20px;
+}
+.np6-micro-sub-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dashed #35cfc7;
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+}
+.np6-micro-img-area h4 {
+    font-size: 16px;
+    color: #000002;
+    text-align: center;
+    margin: 0;
+}
+.np6-micro-img-area span {
+    width: 20px;
+    display: inline-block;
+    margin: 0 9px 0 0;
+    padding: 0;
+    height: 24px;
+}
+.np6-micro-img-area p{
+    color: #181818;
+}
+
+
+/*FAQ Css*/
+
+.faq-banner-sec {
+    background-color: #f2f2f2;
+    position: relative;
+    padding: 110px 0 100px;
+}
+.faq-banner-sec:before, .faq-banner-sec:after{
+    content: '';
+    position: absolute;
+    width: 293px;
+    height: 222px;
+    background-image: url(../images/faq-banner1.png);
+    bottom: 0;
+    left: 30px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
+}
+.faq-banner-sec:after{
+    width: 311px;
+    height: 248px;
+    background-image: url(../images/faq-banner2.png);
+    right: 30px;
+    left: inherit;
+        
+}
+.faq-banner-text {
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.faq-banner-text p {
+	font-size: 18px;
+	color: #838383;
+	margin: 0 0 5px;
+}
+.faq-accordion-text .page-accordion .card-header {
+	padding: 0px;
+	border-bottom: 0px;
+	background-color: transparent;
+}
+.faq-accordion-text .page-accordion h5 {
+	padding: 0px;
+	font-weight: 600;
+	cursor: pointer;
+	font-size: 16px;
+}
+.faq-accordion-text .page-accordion h5 a {
+	padding: 20px 40px 20px 0;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	font-family: 'Gotham';
+	text-transform: uppercase;
+    color: #00bfba !important;
+    border-top: 2px solid #232323;
+}
+.faq-accordion-text .page-accordion h5 a.collapsed {
+    border-top: 2px solid #d9d9d9;
+	color: #00bfba !important
+}
+.faq-accordion-text .show {
+	border-bottom: 2px solid #232323;
+	position: relative;
+	z-index: 1;
+	margin-bottom: -2px;
+}
+
+.faq-accordion-text .page-accordion .card:last-child a.collapsed {
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.faq-accordion-text .page-accordion h5 a::before {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	height: 18px;
+	width: 18px;
+	display: block;
+	content: "";
+	background-size: 100% !important;
+	z-index: 1;
+	background: url("https://cdn.shopify.com/s/files/1/2284/1227/files/faq-up-angle.svg?v=1614375303") no-repeat center center;
+}
+.faq-accordion-text .page-accordion h5 a.collapsed::before {
+	background: url("https://cdn.shopify.com/s/files/1/2284/1227/files/faq-right_1c1c597c-d9a3-418a-90d1-a2fca472358d.svg?v=1614375335") no-repeat center center;
+	z-index: 1;
+	background-size: 100%;
+}
+.faq-accordion-text .page-accordion .card {
+	margin-bottom: 0px;
+	border: 0px;
+	border-radius: 0px;
+	box-shadow: none;
+	color: #565656;
+}
+.faq-accordion-text .page-accordion .card-body {
+	padding: 0 0 20px 0 !important;
+}
+  
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .np8-banner-details {padding-left: 0;}
+    .np8-banner-item-details {padding: 46px 15px 15px;}
+    .np8-item-small-img span {height: 64px;width: 64px;}
+    .np8-b-check input[type="checkbox"].plan-check-input + label.plan-check-label {font-size: 12px;}
+    
+    .np9-pers-item .np8-banner-item-details {padding: 18px 10px;}
+    .np8-up-item {padding: 15px;}
+    
+    .np8-up-item .plan-check-label {padding: 14px 10px !important; font-size: 12px !important}
+}
+
+/* Tablet Layout: 1024px. */
+@media (min-width:100px) and (max-width: 991px) {
+    .np8-banner-details {padding: 40px 0 0;}
+    
+    .np9-banner-sec .np7-fobo-details {padding: 40px 0 0;}
+    .np9-banner-sec .np4-banner-badge-area {margin: 30px 0 0 0;}
+    .recommended-modal-img, .rec-modal-text {width: 100%;}
+    .np9-modal .quiz-item-details {margin: 0 0 30px;}
+    .rec-modal-area .np9-pers-item {margin: 30px 0 0;}   
+    .take-our-back-btn {min-height: 55px;}
+    .np9-modal .quiz-items-area .step-title-area {text-align: left;}
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media (min-width: 100px) and (max-width: 767px) {
+    .np8-banner-item-details {padding: 15px 15px 17px 30px;}
+    .np8-item-small-img span {height: 64px;width: 64px;}
+    .np8-b-check input[type="radio"].plan-check-input + label.plan-check-label {font-size: 12px;}
+    .np8-banner-item-details {padding: 46px 15px 15px;}
+    .np8-up-item .plan-check-label {padding: 14px 10px !important; font-size: 12px !important}
+    .np8-up-item {padding: 15px;}
+    .np8-micro-result .result-block span{color: #6e6eb9;}
+    .np8-micro-result .row > div:first-child .result-block span{color: #e4f8f8;}
+    
+}
+
+@media (min-width: 100px) and (max-width: 480px) {
+    .strength-ind{display: block;
+      position: absolute;
+      bottom: 0;
+      right: 15px;
+    }
+    .np8-save {padding: 0 5px;font-size: 10px;}    
+    .np8-item-small-img span {height: 54px;width: 54px;}
+    .np8-b-check {width: 100%; margin: 15px 0 0}
+    .np8-item-top h5{margin-left: 0px;}
+    .np8-b-check input[type="radio"].plan-check-input + label.plan-check-label {padding: 4px 12px;margin-bottom: 0px;}
+    .np8-b-check input[type="radio"].plan-check-input + label.plan-check-label::before {width: 16px;height: 16px;}
+    .np8-up-item .np8-b-check{width: 100%;margin: 14px 0 0;}
+    .np8-banner-item-details{padding: 0px;border: 0px;border-radius: 0px;border-top: 1px solid #c0c0c0;}
+    .np8-type-acen{display: flex;padding: 0px;}
+    .np8-type-acen > div{margin: auto 0px;}
+    .np8-item-img{width: auto;}
+    .np8-item-img img{max-width: 44px;}
+    .np8-item-small-img{position: static;margin-left: 15px !important;display: flex;}
+    .np8-item-small-img span{width: 44px;height: 44px;margin-left: 0px !important;
+    margin-right: 10px;}
+    .np8-type-acen-title{order: 3;width: 100%;display: flex;align-items: center;display: block;margin-top: 12px !important;
+    text-align: left;}
+    .np8-type-acen-title h5{margin: 0px 5px 0px 15px;font-size: 14px;}
+    
+    .np9-banner-sec .np4-banner-badge-area ul li {margin: 0 20px 0 0;}
+    .np9-modal .modal-header .close {right: 10px;top: 5px;}
+    .np9-modal .modal-content {padding: 10px 10px 30px;}
+    .np9-pers-item .np8-banner-item-details{padding: 15px 5px 5px;}
+    .np9-pers-item .np8-item-img{display: flex;text-align: left;}
+    .np9-pers-item .np8-item-img p, .np9-pers-item .np8-item-img img{margin-bottom: 0px;}
+    .np9-pers-item .np8-item-img p{margin-left: 15px;line-height: 18px;font-size: 14px;}
+}
+@media (min-width: 100px) and (max-width: 380px) {
+    .np8-item-top ul li h5, .np8-item-top ul li {font-size: 14px;}
+    .np8-item-img img{max-width: 40px;}
+    .np8-item-small-img {margin-left: 10px !important;}
+    .np8-item-small-img span {height: 38px;width: 38px;}
+    .np8-type-acen-title h5{margin-left: 10px;font-size: 13px;    line-height: 14px;
+ }
+    .np8-type-acen-title p{font-size: 11px;margin-left: 10px;}
+    .np8-save {padding: 0 5px;font-size: 8px; line-height: 14px}
+    .np8-item-top ul {margin: 0 0 5px 61px;}
+    .np9-modal .quiz-items-area .main-btn.continueBtn, .np9-modal .quiz-items-area .main-btn.backBtn {letter-spacing: 0;font-size: 12px;padding: 10px 18px;}
+    .np8-banner-details sup, .np8-scabtily-sec .hp-fobo-details sup{top: -14px;font-size: 16px;}
+}
+@media (min-width: 100px) and (max-width: 320px) { 
+    .np8-b-check input[type="checkbox"].plan-check-input + label.plan-check-label {font-size: 9px;line-height: 18px;}
+    .np8-item-top ul {margin: 0 0 4px 51px;}
+    .np8-item-top ul li h5, .np8-item-top ul li {font-size: 12px;}
+    .np8-banner-btn .main-btn {padding: 15px 20px;letter-spacing: 1px;}
+    
+    .rec-modal-text.np9-pers-item .np8-banner-item-details {padding: 18px 0;}
+    
+}
+
+.np9-pers-item .m-title{display: none;}
+@media (min-width: 100px) and (max-width: 767px){
+    .page-content-block {padding-top: 40px;}
+    .np9-pers-item .kit-options {margin: 0px -15px;}
+    .np9-pers-item .np9-free-ship{display: none;}
+    .np9-pers-item .np8-item-img{display: flex;margin: 0px;}
+    .np9-pers-item .np8-item-img p{display: none;}
+    .np9-pers-item .np8-item-img img{border-radius: 0px;margin-bottom: 0px;max-width: 50px;}
+    .np9-pers-item .m-title{display: block;font-family: "Gotham";font-size: 18px;margin: auto 0px auto 15px;line-height: 20px;}
+    .np9-pers-item .m-title span{font-family: "GothamLight";font-size: 16px;}
+    
+    
+}
+
+</style>
+
+<style>
+  
+  
+
+/*qz3 page*/
+.quiz3-sec{
+    background-color: #f2f2f2;
+}
+.qz3-take-title{
+    text-align: center;
+    margin: 0 0 30px;
+    border-bottom: 2px solid #00beba;
+}
+.qz3-take-title h2{
+    color: #00beba;
+    text-transform: uppercase;
+    padding: 0 0 20px;
+}
+.qz3-take-our-items {
+    background-color: #fff;
+    padding: 50px 30px 35px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 0 30px;
+    position: relative;
+}
+.qz3-take-our-items h4{
+    color: #000000;
+    margin: 0 0 30px;
+}
+.qz3-take-our-items h4 span{
+    color: #00beba;
+    font-family: "GothamLight";
+    font-size: 20px;
+    
+}
+.qz3-take-input-item {
+  display: flex;
+  background-color: #e5f8f8;
+  align-items: center;
+  border-radius: 6px;
+  margin:15px;
+    position: relative;
+}
+.qz3-input-img {
+  width: 76px;
+  border-radius: 6px 0 0 6px;
+  overflow: hidden;
+}
+.qz3-take-our-item-input {
+  display: flex;
+  justify-content: center;
+    flex-wrap: wrap;
+}
+.qz3-take-input-item label {
+  margin: 0;
+  padding: 0 14px;
+}
+.qz3-btn {
+    text-transform: uppercase;
+    background-color: #00beba;
+    padding: 15px 25px;
+}
+.qz3-input-holder {
+    position: relative;
+}
+.qz3-take-input-item input[type="radio"].qz3-plan-input {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	opacity: 0;
+}
+.qz3-take-input-item input[type="radio"].qz3-plan-input + label.qz3-plan-label {
+	display: block;
+	cursor: pointer;
+	padding: 15px 25px 15px 40px;
+	position: relative;
+	width: 100%;
+	font-size: 12px;
+	margin-bottom: 0px;
+    text-transform: uppercase;
+    font-family: "Gotham";
+    color: #000000;
+}
+.qz3-take-input-item input[type="radio"].qz3-plan-input + label.qz3-plan-label::before {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 15px;
+	top: 19px;
+	border: 2px solid #00beba;
+	border-radius: 50%;
+	content: "";
+	margin-top: 0;
+    background: #fff;
+}
+.qz3-take-input-item input[type="radio"].qz3-plan-input + label.qz3-plan-label::after {
+	opacity: 0;
+	background-color: #00beba;
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	left: 20px;
+	top: 24px;
+	content: '';
+	position: absolute;
+	margin-top: 0;
+}
+.qz3-take-input-item input[type="radio"].qz3-plan-input:checked + label.qz3-plan-label::after {
+	opacity: 1;
+}
+
+  
+  
+.qz3-take-input-item input[type="checkbox"].qz3-plan-input {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	opacity: 0;
+}
+.qz3-take-input-item input[type="checkbox"].qz3-plan-input + label.qz3-plan-label {
+	display: block;
+	cursor: pointer;
+	padding: 15px 25px 15px 40px;
+	position: relative;
+	width: 100%;
+	font-size: 12px;
+	margin-bottom: 0px;
+    text-transform: uppercase;
+    font-family: "Gotham";
+    color: #000000;
+}
+.qz3-take-input-item input[type="checkbox"].qz3-plan-input + label.qz3-plan-label::before {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 15px;
+	top: 19px;
+	border: 2px solid #00beba;
+	border-radius: 50%;
+	content: "";
+	margin-top: 0;
+    background: #fff;
+}
+.qz3-take-input-item input[type="checkbox"].qz3-plan-input + label.qz3-plan-label::after {
+	opacity: 0;
+	background-color: #00beba;
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	left: 20px;
+	top: 24px;
+	content: '';
+	position: absolute;
+	margin-top: 0;
+}
+.qz3-take-input-item input[type="checkbox"].qz3-plan-input:checked + label.qz3-plan-label::after {
+	opacity: 1;
+}
+.qz3-take-input-text input[type="text"]{background-color: #e5f8f8;border-radius: 6px;border: 0px;width: 100%;max-width: 400px;height: 42px;padding: 10px 15px;font-size: 12px;font-family: "Gotham";}
+
+.qz3-take-our-items:before{position: absolute;width: 100%;height: 100%;background-color: rgba(114,114,114,0.8);content: "";left: 0px;top: 0px;border-radius: 15px;display: none;}
+.qz3-take-our-items:hover + .qz3-take-our-items:before{display: block;z-index: 3;}
+
+    </style>
+</head>
+
+<body>
+<div class="header-height"></div>
+<header class="for-sticky">
+  <div class="header-area-top">
+    <div class="container">
+      <h6>Free shipping on orders above $25!</h6>
+    </div>
+  </div>
+  <div class="container">
+    <div class="header-area"> 
+      <!-- Site logo Start -->
+      <div class="logo"> <a href="index.html" title="Fittea"><img src="assets/images/logo.png" alt="Fittea" /></a> </div>
+      <!-- Site logo end --> 
+      
+      <!-- Main menu start -->
+      <nav class="mainmenu">
+        <ul id="navigation">
+          <li><a href="#">Whats #Fobo</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Clinical Results</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">faq</a></li>
+        </ul>
+      </nav>
+      <!-- Main menu end --> 
+      <!-- Search Start -->
+      <div class="navbar header-search-bar">
+        <form action="#">
+          <span class=""><i class="fas fa-search"></i></span>
+        </form>
+      </div>
+      
+      <!-- Search End --> 
+      
+      <!-- Bag Start -->
+      <div class="navbar shopping-bar"> <span class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-cart"></i></span>
+        <div class="dropdown-menu shopping-block"> </div>
+      </div>
+      <!-- Bag End -->
+      
+      <div class="user-login"><a href="#">Get #fobo kit</a></div>
+      <div class="mobile-menu-wrapper">
+        <input type="checkbox" class="menu-check">
+        <div class="menu-icon">
+          <div></div>
+        </div>
+        <nav class="menu">
+          <div>
+            <div class="nav-mobile"></div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!--NP4 Page Banner-->
+
+<div class="page-content-block np9-banner-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-5">
+        <div class="np8-fobo-slider">
+          <div class="np8-fobo-for">
+            <div class="np8-fobo-item"> <img src="assets/images/np9-slider1.jpg" alt="" /> </div>
+            <div class="np8-fobo-item"> <img src="assets/images/np8-slider1.jpg" alt="" /> </div>
+            <div class="np8-fobo-item"> <img src="assets/images/np8-slider1.jpg" alt="" /> </div>
+            <div class="np8-fobo-item"> <img src="assets/images/np8-slider1.jpg" alt="" /> </div>
+            <div class="np8-fobo-item"> <img src="assets/images/np8-slider1.jpg" alt="" /> </div>
+            <div class="np8-fobo-item"> <img src="assets/images/np8-slider1.jpg" alt="" /> </div>
+          </div>
+          <div class="np8-fobo-nav">
+            <div class="np8-fobo-thumb"> <img src="assets/images/np8-thumb1.jpg" alt="" /> </div>
+            <div class="np8-fobo-thumb"> <img src="assets/images/np8-thumb2.jpg" alt="" /> </div>
+            <div class="np8-fobo-thumb"> <img src="assets/images/np8-thumb3.jpg" alt="" /> </div>
+            <div class="np8-fobo-thumb"> <img src="assets/images/np8-thumb4.jpg" alt="" /> </div>
+            <div class="np8-fobo-thumb"> <img src="assets/images/np8-thumb5.jpg" alt="" /> </div>
+            <div class="np8-fobo-thumb"> <img src="assets/images/np8-thumb6.jpg" alt="" /> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-7 mtb-auto">
+        <div class="np7-fobo-details">
+          <h2>#FOBO<sup>&reg;</sup> (Fear of <br>
+            Breaking Out) <br>
+            4 Piece Kit</h2>
+          <p>Our complete, skin and gut microbiome, personalized acne treatment kit.</p>
+          <p><strong>SE Microbiome Complex®</strong> powered 4 Piece #FOBO® Kit is your personalized, breakthrough acne solution.</p>
+          <ul>
+            <li class="li-item1">SCANTILY Pad® AM/PM Acne Treatment</li>
+            <li class="li-item2">CLEANSE with Benefits™ AM/PM Cleanser</li>
+            <li class="li-item3">SUPPLEMEANT to Be® Daily Pre + Probiotic Mix</li>
+            <li class="li-item4">PATCH Me (If You Can)® Targeted Pimple Patches</li>
+          </ul>
+          <a href="#" class="np7-btn">get started</a> </div>
+        <div class="np4-banner-badge-area">
+          <ul>
+            <li><img src="assets/images/np8-badge1.png" alt=""></li>
+            <li><img src="assets/images/np8-badge2.png" alt=""></li>
+            <li><img src="assets/images/np8-badge3.png" alt=""></li>
+            <li><img src="assets/images/np8-badge4.png" alt=""></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-content-block np9-personalize-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="np9-pers-title">
+          <h3>Personalize your #FOBO<sup>&reg;</sup> Kit with your skin-specific <br>
+            custom formula of <strong>SCANTILY Pad<sup>&reg;</sup></strong></h3>
+        </div>
+      </div>
+    </div>
+    <div class="row kit-options">
+      <div class="col-12 col-md-4">
+        <div class="np9-pers-item">
+          <h4>#FOBO® Kit with 0.5% SCANTILY Pad®</h4>
+          <div class="np8-banner-item-details np8-b-check">
+            
+            <input type="radio" class="plan-check-input" id="cf-agree1" name="pads-strength" value="9570510209071"  data-sub-id="9570510209071" checked>
+            <label class="plan-check-label" for="cf-agree1">
+            <div class="np8-item-img"><div class="np8-item-img-hlder"><img src="https://cdn.shopify.com/s/files/1/2284/1227/products/KitAlt3.png?v=1564582068" alt=""></div>
+              <h5 class="m-title">For Mild Acne <span>or Sensitive skin</span></h5>  
+              <p>Recommended for very sensitive skin and very mild acne breakouts.</p>
+            </div>
+            <div class="np9-free-ship">
+              <p><span><img src="https://cdn.shopify.com/s/files/1/2284/1227/files/free-ship-icon.png?v=1614451314" alt=""></span> Free Shipping</p>
+            </div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="np9-pers-item">
+          <h4>#FOBO® Kit with 1% SCANTILY Pad®</h4>
+          <div class="np8-banner-item-details np8-b-check">
+            
+            <input type="radio" class="plan-check-input" id="cf-agree2" name="pads-strength" value="9570510241839" data-sub-id="9570510241839" checked>
+            <label class="plan-check-label" for="cf-agree2">
+            <div class="np8-item-img"><div class="np8-item-img-hlder"><img src="https://cdn.shopify.com/s/files/1/2284/1227/products/KitAlt3.png?v=1564582068" alt=""></div>
+              <h5 class="m-title">For Moderate Acne</h5>    
+              <p>Recommended for normal skin & mild-to-moderate acne breakouts</p>
+            </div>
+            <div class="np9-free-ship">
+              <p><span><img src="https://cdn.shopify.com/s/files/1/2284/1227/files/free-ship-icon.png?v=1614451314" alt=""></span> Free Shipping</p>
+            </div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="np9-pers-item">
+          <h4>#FOBO® Kit with 2% SCANTILY Pad®</h4>
+          <div class="np8-banner-item-details np8-b-check">
+            
+            <input type="radio" class="plan-check-input" id="cf-agree3" name="pads-strength" value="9570510274607" data-sub-id="9570510274607" checked>
+            <label class="plan-check-label" for="cf-agree3">
+            <div class="np8-item-img"><div class="np8-item-img-hlder"><img src="https://cdn.shopify.com/s/files/1/2284/1227/products/KitAlt3.png?v=1564582068" alt=""></div>
+              <h5 class="m-title">For Severe Acne</h5>  
+              <p>Recommended for normal to oily skin and moderate-to-severe acne breakouts</p>
+            </div>
+            <div class="np9-free-ship">
+              <p><span><img src="https://cdn.shopify.com/s/files/1/2284/1227/files/free-ship-icon.png?v=1614451314" alt=""></span> Free Shipping</p>
+            </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row np9-pers-bottom mt-2 mb-4">
+      <div class="col-12 col-lg-10 offset-lg-1">
+                   <a href="#" id="AddToCart--product-template" class="main-btn one-time add-kit-one-tim-to-cart" data-toggle="modal" data-target="#exampleModal">One-Time Purchase | $74.99</a> <a href="#" class="main-btn add-kit-sub-to-cart" data-toggle="modal" >Subscribe & Save | $59.99</a> 
+    </div>
+</div>
+    <div class="row">
+      <div class="col-12 col-lg-10 offset-lg-1">
+        <div class="np9-modal mx-auto text-center">
+                   <p>Not sure which skin-specific SCANTILY Pad® custom formula is right for you? Take our skin quiz to receive your personalized recommendation</p>
+                   <a href="#" class="" data-toggle="modal" data-target="#exampleModal">Take our Skin Quiz</a> <!--<a href="#" class="main-btn" data-toggle="modal" data-target="#exampleModal2">Sample 01</a>-->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title" id="exampleModalLabel">Take our quiz</h2>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                </div>
+                <div class="modal-body">
+                  <div class="quiz-items-area">
+                    <div class="take-our-items">
+                      <div class="take-our-item complete active">
+                        <div class="quiz-item-details qz3-take-our-item">
+                          <h4>What type of acne do you have? <span>(Select any that apply)</span></h4>
+                          <div class="qz3-take-our-item-input step-no-1">
+                            <div class="qz3-take-input-item">
+                              <div class="qz3-input-img"> <img src="https://cdn.shopify.com/s/files/1/2284/1227/files/rect-blackheads.jpg?v=1614379861" alt=""> </div>
+                              <div class="qz3-input-holder">
+                                <input type="checkbox" id="take-item1" name="quiz1" value="" class="qz3-plan-input">
+                                <label for="take-item1" class="qz3-plan-label">Blackheads</label>
+                              </div>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <div class="qz3-input-img"> <img src="https://cdn.shopify.com/s/files/1/2284/1227/files/rect-whiteheads.jpg?v=1614379861" alt=""> </div>
+                              <div class="qz3-input-holder">
+                                <input type="checkbox" id="take-item2" name="quiz1" value="" class="qz3-plan-input">
+                                <label for="take-item2" class="qz3-plan-label">Whiteheads</label>
+                              </div>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <div class="qz3-input-img"> <img src="https://cdn.shopify.com/s/files/1/2284/1227/files/rect-pustules.jpg?v=1614379861" alt=""> </div>
+                              <div class="qz3-input-holder">
+                                <input type="checkbox" id="take-item3" name="quiz1" value="" class="qz3-plan-input">
+                                <label for="take-item3" class="qz3-plan-label">Pustules</label>
+                              </div>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <div class="qz3-input-img"> <img src="https://cdn.shopify.com/s/files/1/2284/1227/files/rect-papules.jpg?v=1614379861" alt=""> </div>
+                              <div class="qz3-input-holder">
+                                <input type="checkbox" id="take-item4" name="quiz1" value="" class="qz3-plan-input">
+                                <label for="take-item4" class="qz3-plan-label">Papules</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="step-title-area">
+                          <h3>Step 1/7</h3>
+                        </div>
+                        <div class="take-our-back-btn"> 
+                          <!--<button class="main-btn backBtn"><i class="fas fa-chevron-left"></i> back</button>-->
+                          <button class="main-btn continueBtn" data-id="1">Next Question</button>
+                        </div>
+                      </div>
+                      <div class="take-our-item">
+                        <div class="quiz-item-details">
+                          <h4>How many pimples do you have per week, on average? <span>(Select any that apply)</span></h4>
+                          <div class="qz3-take-our-item-input">
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item1-s2" name="quiz2" value="" class="qz3-plan-input">
+                              <label for="take-item1-s2" class="qz3-plan-label">Less than 5</label>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item2-s2" name="quiz2" value="" class="qz3-plan-input">
+                              <label for="take-item2-s2" class="qz3-plan-label">5 - 15</label>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item3-s2" name="quiz2" value="" class="qz3-plan-input">
+                              <label for="take-item3-s2" class="qz3-plan-label">More than 15</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="step-title-area">
+                          <h3>Step 2/7</h3>
+                        </div>
+                        <div class="take-our-back-btn">
+                          <button class="main-btn backBtn"><i class="fas fa-chevron-left"></i> back</button>
+                          <button class="main-btn continueBtn" data-id="2">Next Question</button>
+                        </div>
+                      </div>
+                      <div class="take-our-item">
+                        <div class="quiz-item-details">
+                          <h4>How often do you want to call in sick break out? <span>(Select any that apply)</span></h4>
+                          <div class="qz3-take-our-item-input">
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item1-s3" name="quiz3" value="" class="qz3-plan-input">
+                              <label for="take-item1-s3" class="qz3-plan-label">Rarely</label>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item2-s3" name="quiz3" value="" class="qz3-plan-input">
+                              <label for="take-item2-s3" class="qz3-plan-label">Monthly</label>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item3-s3" name="quiz3" value="" class="qz3-plan-input">
+                              <label for="take-item3-s3" class="qz3-plan-label">Daily</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="step-title-area">
+                          <h3>Step 3/7</h3>
+                        </div>
+                        <div class="take-our-back-btn">
+                          <button class="main-btn backBtn"><i class="fas fa-chevron-left"></i> back</button>
+                          <button class="main-btn continueBtn" data-id="3">Next Question</button>
+                        </div>
+                      </div>
+                      <div class="take-our-item">
+                        <div class="quiz-item-details">
+                          <h4>What best describes your skin type? <span>(Select any that apply)</span></h4>
+                          <div class="qz3-take-our-item-input">
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item1-s4" name="quiz4" value="" class="qz3-plan-input">
+                              <label for="take-item1-s4" class="qz3-plan-label">Normal</label>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item2-s4" name="quiz4" value="" class="qz3-plan-input">
+                              <label for="take-item2-s4" class="qz3-plan-label">Oily</label>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item3-s4" name="quiz4" value="" class="qz3-plan-input">
+                              <label for="take-item3-s4" class="qz3-plan-label">Dry</label>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item4-s4" name="quiz4" value="" class="qz3-plan-input">
+                              <label for="take-item4-s4" class="qz3-plan-label">Combination</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="step-title-area">
+                          <h3>Step 4/7</h3>
+                        </div>
+                        <div class="take-our-back-btn">
+                          <button class="main-btn backBtn"><i class="fas fa-chevron-left"></i> back</button>
+                          <button class="main-btn continueBtn" data-id="4">Next Question</button>
+                        </div>
+                      </div>
+                      <div class="take-our-item">
+                        <div class="quiz-item-details">
+                          <h4>Is your skin sensitive? <span>(Select any that apply)</span></h4>
+                          <div class="qz3-take-our-item-input">
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item1-s5" name="quiz5" value="" class="qz3-plan-input">
+                              <label for="take-item1-s5" class="qz3-plan-label">Yes</label>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item2-s5" name="quiz5" value="" class="qz3-plan-input">
+                              <label for="take-item2-s5" class="qz3-plan-label">Sometimes</label>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item3-s5" name="quiz5" value="" class="qz3-plan-input">
+                              <label for="take-item3-s5" class="qz3-plan-label">No</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="step-title-area">
+                          <h3>Step 5/7</h3>
+                        </div>
+                        <div class="take-our-back-btn">
+                          <button class="main-btn backBtn"><i class="fas fa-chevron-left"></i> back</button>
+                          <button class="main-btn continueBtn" data-id="5">Next Question</button>
+                        </div>
+                      </div>
+                      <div class="take-our-item">
+                        <div class="quiz-item-details">
+                          <h4>What is your gender? <span>(Select any that apply)</span></h4>
+                          <div class="qz3-take-our-item-input">
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item1-s6" name="quiz6" value="" class="qz3-plan-input">
+                              <label for="take-item1-s6" class="qz3-plan-label">Male</label>
+                            </div>
+                            <div class="qz3-take-input-item">
+                              <input type="radio" id="take-item2-s6" name="quiz6" value="" class="qz3-plan-input">
+                              <label for="take-item2-s6" class="qz3-plan-label">Female</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="step-title-area">
+                          <h3>Step 6/7</h3>
+                        </div>
+                        <div class="take-our-back-btn">
+                          <button class="main-btn backBtn"><i class="fas fa-chevron-left"></i> back</button>
+                          <button class="main-btn continueBtn" data-id="6">Next Question</button>
+                        </div>
+                      </div>
+                      <div class="take-our-item">
+                        <div class="quiz-item-details">
+                          <h4>What is your age? </h4>
+                          <div class="qz3-take-input-text">
+                            <input type="text" name="quiz7" value="" placeholder="TYPE HERE">
+                          </div>
+                        </div>
+                        <div class="step-title-area">
+                          <h3>Step 7/7</h3>
+                        </div>
+                        <div class="take-our-back-btn">
+                          <button class="main-btn backBtn"><i class="fas fa-chevron-left"></i> back</button>
+                          <button class="main-btn continueBtn" data-id="7">Get Custom Kit</button>
+                        </div>
+                      </div>
+                  <div class="take-our-item rec-modal-area">
+                    <div class="modal-body">
+                    <div class="recommended-modal-img"> <img src="https://cdn.shopify.com/s/files/1/2284/1227/products/KitOpen.png?v=1564582068" alt=""> </div>
+                    <div class="rec-modal-text np9-pers-item">
+                      <div class="np8-banner-item-details">
+                        <div class="np9-rec-modal-title">
+                          <h3>#FOBO<sup>&reg;</sup> Kit with <span class="pad-strength">0.5%</span> SCANTILY Pad<sup>&reg;</sup></h3>
+                          <p>Recommended for normal to oily skin and moderate-to-severe acne breakouts.</p>
+                        </div>
+                        <div class="np8-b-check np8-bg-color">
+                          <input type="radio" class="plan-check-input" id="one-time" name="subscription" value="false">
+                          <label class="plan-check-label" for="one-time">One Time Purchase <span class="np8-price">$74.99</span></label>
+                        </div>
+                        <div class="np8-b-check">
+                          <input type="radio" class="plan-check-input" id="subscription" name="subscription" value="true" checked>
+                          <label class="plan-check-label" for="subscription">
+                          <div class="np9-subs-txt">Subscribe & <span class="np8-save">Save20%</span></div>
+                          <span class="np8-price">$59.99</span>
+                          </label>
+                        </div>
+                        <div class="np9-free-ship">
+                          <p><span><img src="https://cdn.shopify.com/s/files/1/2284/1227/files/free-ship-icon.png?v=1614451314" alt=""></span> Free Shipping</p>
+                        </div>
+                        <div class="np9-pers-bottom mt-0">
+                        <a href="#" class="main-btn">Add to cart</a> </div>
+                      </div>
+                    </div>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                  </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="np8-scabtily-sec faq-accordion-text">
+          <div id="accordion" class="page-accordion">
+            <div class="card active">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0"> <a class="btn-faq" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> How it works </a> </h5>
+              </div>
+              <div id="collapseOne" class="show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body pb-0"> Our 4 piece <strong>#FOBO<sup>&reg;</sup> kit</strong> is your complete, breakthrough acne solution that treats acne from the gut level as well as on the skin surface by using YOUR microbiome. Our complete kit has everything you need for clear, healthy, beautiful skin.
+                  <ul class="mb-0">
+                    <li class="thumb"><strong>SCANTILY Pad<sup>&reg;</sup></strong> AM/PM Acne Treatment works to treat and control acne breakouts by rebalancing your skin’s microbiome, killing acne causing
+                      bacteria and allowing healthy bacteria to flourish. The unique combination of <strong>Patented SE Microbiome Complex<sup>&reg;</sup></strong> and Salicylic Acid (BHA) work together to treat current acne breakouts, clear pores, and prevent future acne breakouts, while Aloe Vera soothes and hydrates the skin. SCANTILY Pad® delivers long-lasting effects without irritation. As a result, pimples heal faster with less inflammation, redness, pain, hyper-pigmentation (dark spots), and scarring - leaving clear, healthy, beautiful skin.</li>
+                    <li class="thumb"><strong>CLEANSE with Benefits™</strong> AM/PM Cleanser removes oil and dirt from the skin with soap and sulphate free gentle cleansers, and hydrates and protects the skin with glycerin and Panthenol pro-vitamin B5. <strong>Patented SE Microbiome Complex<sup>&reg;</sup></strong> (our proprietary combination of naturally occurring prebiotics and postbiotics) supports a healthy microbiome by killing acne causing bacteria while promoting the growth of acne-fighting bacteria - the result is clean, balanced, acne-free skin.</li>
+                    <li class="thumb"><strong>SUPPLEMEANT to Be<sup>&reg;</sup></strong> Daily Pre + Probiotic Mix is the perfect daily supplement for acne sufferers. Our unique blend of scientifically proven ingredients were specifically selected for their acne-fighting and skin health benefits - working both in the gut and at skin level. Prebiotics provide the food source for good, acne-fighting bacteria and 6.25 billion CFU of probiotics increase the numbers of acne-fighting bacteria to kill acne-causing bacteria. Zinc helps to decrease oil production in the skin and helps to reduce inflammation; Vitamins A, C and E work together to provide super-antioxidant skin protection and spinach extract contains enzymes and antioxidants for optimal skin health. Safe for children and adults.</li>
+                    <li class="thumb"><strong>PATCH Me (If You Can)<sup>&reg;</sup></strong> our drug-free, clear, adhesive pimple patches are made from hydrocolloid which works by drawing out and absorbing pus and oil from pimples to reduce pimple redness, oiliness and overall acne severity. These moisture rich patches provide a physical barrier to prevent picking and spread of bacteria. They also lower the pH in the area under the patch which inhibits bacterial growth and protects against UVB to help prevent hyperpigmentation (brown spots) and scarring.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0"> <a class="btn-faq collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> how to use </a> </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <ul>
+                    <li><strong>CLEANSE With Benefits™:</strong> Cleanse the skin and pat dry. Use one pad every morning and every evening to gently apply the solution all over the face, avoiding the eye area. We recommend starting with one application per day (either morning or evening) to ensure excess skin drying doesn’t occur, then gradually increase to morning and evening application. If bothersome dryness or peeling occurs, reduce application to once a day or every other day until your skin has adjusted.</li>
+                    <li><strong>SCANTILY Pad<sup>&reg;</sup></strong> Cleanse the skin with <strong>CLEANSE With Benefits™</strong> and pat dry. Use one pad every morning and every evening to gently apply the solution all over the face, avoiding the eye area. We recommend starting with one application per day (either morning or evening) to ensure excess skin drying doesn’t occur, then gradually increase to morning and evening application. If bothersome dryness or peeling occurs, reduce application to once a day or every other day until your skin has adjusted.</li>
+                    <li><strong>PATCH Me (If You Can)<sup>&reg;</sup></strong> use after applying SCANTILY Pad<sup>&reg;</sup>. Peel a patch from the sheet and apply it onto a pimple. Leave it on for at least an hour or overnight for best results. A change in color to white indicates pus absorbance. Remove the patch by peeling it off. If necessary, use warm water for easier removal.</li>
+                    <li><strong>SUPPLEMEANT To Be<sup>&reg;</sup></strong> Take one capsule daily before or with a meal. Either swallow the capsule whole with water; or twist the capsule, pull apart and sprinkle the contents on food or in a drink of your choice.</li>
+                  </ul>
+                  <!--<iframe src="" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>-->
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0"> <a class="btn-faq collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> ingredients </a> </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body pb-0"> <strong>SCANTILY Pad<sup>&reg;</sup> KEY INGREDIENTS:</strong>
+                  <ul>
+                    <li><strong>Patented SE Microbiome Complex<sup>®</sup></strong> - proprietary combination of naturally occurring prebiotics and postbiotics support a healthy microbiome by killing acne causing bacteria while promoting the growth of healthy acne-fighting bacteria. The result is clear, healthy, acne-free skin.</li>
+                    <li><strong>Salicylic Acid (BHA)</strong> Beta Hydroxy Acid is a natural ingredient found in many plants including the bark of willow trees. Salicylic acid works to treat acne by penetrating and exfoliating the pores and surface of the skin, eliminating dead skin cells and blockages. Antimicrobial, helps kill acne causing bacteria and anti-inflammatory to reduce redness and hyperpigmentation. Leaves the skin clear and smooth.</li>
+                    <li><strong>Organic Aloe vera</strong> is a natural ingredient from the Aloe plant that contains vitamins, minerals and amino acids to support the skin’s microbiome and acid mantle (skin barrier) while deeply hydrating and soothing the skin and minimizing any skin irritation.</li>
+                  </ul>
+                  <strong>SCANTILY Pad<sup>&reg;</sup> INGREDIENTS:</strong> Active Ingredient: Salicylic Acid (0.5%, 1%, 2%). Inactive ingredients: organic aloe vera, organic grain alcohol, cocamidopropyl dimethylamine, SE Microbiome Complex<sup>&reg;</sup>, sodium hydroxide, organic lemon essential oil. <br>
+                  <br>
+                  <strong>CLEANSE With Benefits™ KEY INGREDIENTS:</strong>
+                  <ul>
+                    <li><strong>Patented SE Microbiome Complex<sup>&reg;</sup> </strong> - proprietary combination of naturally occurring prebiotics and postbiotics support a healthy microbiome by killing acne causing bacteria while promoting the growth of healthy acne-fighting bacteria. The result is clear, healthy, acne-free skin.</li>
+                    <li><strong>Panthenol (provitamin B5)</strong> skin protectant with anti-inflammatory properties that soothes redness and helps to improve skin's hydration, elasticity, and smooth appearance.</li>
+                    <li><strong>Glycerin</strong> is a humectant and emollient that allows the skin to retain moisture, increasing hydration and relieving dryness while softening the skin.</li>
+                    <li><strong>Amino acids:</strong> Arginine, Proline, Glycine, Alanine together they hydrate the skin, increase water retention, provide antioxidant protection, reduce inflammation and produce collagen.</li>
+                  </ul>
+                  <strong>CLEANSE With Benefits™ KEY INGREDIENTS:</strong>
+                  <ul>
+                    <li>Water (aqua), lauryl glucoside, laureth-7 citrate, glyceryl cocoate, propanediol, PEG-7 glyceryl cocoate, Citrus sinensis (sweet orange) oil,
+                      Citrus limonium (lemon) oil, citric acid, SE Microbiome Complex ® , glycerin, phosphatidylcholine, panthenol (provitamin B5), arginine, proline, glycine, alanine, phenoxyethanol, potassium sorbate, ethylhexylglycerin, tetrasodium EDTA</li>
+                  </ul>
+                  <strong>SUPPLEMEANT To Be® KEY INGREDIENTS:</strong>
+                  <ul class="np9-for-margin">
+                    <li><strong>Zinc</strong> (as gluconate) 15mg per serving, 136% daily value</li>
+                    <li><strong>Vitamin A</strong> 300mcg RAE per serving, 33% daily value</li>
+                    <li><strong>Vitamin C</strong> 30mg per serving, 33% daily value</li>
+                    <li><strong>Vitamin E</strong> 5mg per serving, 33% daily value</li>
+                    <li><strong>Probiotic mix</strong> 6.25 billion CFU (Bacillus subtilis DE111®, Bifidobacterium longum, Bifidobacterium lactis Bi-07, Lactobacillus plantarum, Bifidobacterium lactis, Lactobacillus rhamnosus.)</li>
+                    <li><strong>Spinach Leaf Extract</strong> 100mg (Solarplast)</li>
+                    <li><strong>Prebiotic Mix</strong> (PreforPro®) 15mg (LH01 – Myoviridae, LL5 – Siphoviridae, T4D – Myoviridae, LL12 – Myoviridae)</li>
+                  </ul>
+                  <strong>SUPPLEMEANT To Be® INGREDIENTS :</strong>
+                  <ul>
+                    <li>Other ingredients: Microcrystalline cellulose, delayed release vegetable capsule (hypromellose, pectin and water), medium-chain triglycerides, silica.</li>
+                  </ul>
+                  <strong>PATCH Me (If You Can)® KEY INGREDIENTS:</strong>
+                  <ul>
+                    <li><strong>Hydrocolloid</strong> works by drawing out and absorbing pus and oil from pimples to reduce pimple redness, oiliness and overall acne severity</li>
+                  </ul>
+                  <strong>PATCH Me (If You Can)® KEY INGREDIENTS:</strong>
+                  <ul class="mb-0">
+                    <li>Hydrocolloid</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--microbiome img area-->
+
+<div class="page-content-block np7-micro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2>Don’t miss out on results like this</h2>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="np6-micro-img-area"> <img src="assets/images/micor-img-top.jpg" alt="">
+          <div class="np6-micro-sub-title"> <span><img src="assets/images/calendar-interface-symbol-tool.svg" alt=""></span>
+            <h4>After 2 Weeks</h4>
+          </div>
+          <p><em>“I’m loving my pads and the acne patches! The acne patches works amazing!!”</em></p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="np6-micro-img-area"> <img src="assets/images/micor-img-right.jpg" alt="">
+          <div class="np6-micro-sub-title"> <span><img src="assets/images/calendar-interface-symbol-tool.svg" alt=""></span>
+            <h4>After 4 Weeks</h4>
+          </div>
+          <p><em>“These cleared my breakouts on my chin and neck from wearing a mask 10 hrs a day.
+            Highly recommend!”</em></p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="np6-micro-img-area"> <img src="assets/images/micor-img-bottom.jpg" alt="">
+          <div class="np6-micro-sub-title"> <span><img src="assets/images/calendar-interface-symbol-tool.svg" alt=""></span>
+            <h4>After 8 Weeks</h4>
+          </div>
+          <p><em>“So much happy with the results of this kit. This is great for acne. Worth to buy this!”</em></p>
+        </div>
+      </div>
+      <div class="col-12 text-center"> <a href="#" class="np7-btn">get started</a> </div>
+    </div>
+  </div>
+</div>
+<div class="page-content-block np8-micro-result pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="micro-details">
+          <h2>Results you can see</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="result-block"> <span>94%</span>
+          <div class="result-text">The skin appeared softer and smoother after 7 days*</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="result-block"> <span>97%</span>
+          <div class="result-text">The skin felt instantly hydrated.</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="result-block"> <span>95%</span>
+          <div class="result-text">Agreed it quickly and easily anbsorbs into the skin*</div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <p>*Based on results of a self-assessment study of 84 women, ages 35–60, after 28 days, twice daily use.</p>
+        <a href="#" class="np7-btn">Get your #fobo kit</a> </div>
+    </div>
+  </div>
+</div>
+
+<!-- Loved area -->
+
+<div class="page-content-block np3-result-bottom-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 offset-lg-2">
+        <div class="np3-result-bottom-block">
+          <div class="np3-result-bottom-details">
+            <div class="np3-result-bottom-item-area">
+              <div class="np3-result-bottom-item">
+                <div class="np3-result-profile-img"> <span class="profie-img">M</span> <span class="profile-check"><i class="fas fa-check"></i></span> </div>
+                <div class="np3-result-profile-text">
+                  <ul>
+                    <li>
+                      <div class="star-block"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <div class="np3-li-fobo"><span class="np3-li-date">12/29/20</span> about <strong>#FOBO - Month to Month</strong></div>
+                    </li>
+                    <li><span class="verifeid">Verifeid</span> Melodie Perez</li>
+                  </ul>
+                </div>
+              </div>
+              <p>#FOBO - Month to Month</p>
+            </div>
+            <div class="np3-result-bottom-item-area">
+              <div class="np3-result-bottom-item">
+                <div class="np3-result-profile-img"> <span class="profie-img">K</span> <span class="profile-check"><i class="fas fa-check"></i></span> </div>
+                <div class="np3-result-profile-text">
+                  <ul>
+                    <li>
+                      <div class="star-block"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <div class="np3-li-fobo"><span class="np3-li-date">12/29/20</span> about <strong>#FOBO - Month to Month</strong></div>
+                    </li>
+                    <li><span class="verifeid">Verifeid</span> Melodie Perez</li>
+                  </ul>
+                </div>
+              </div>
+              <p>#FOBO - Month to Month</p>
+            </div>
+            <div class="np3-result-bottom-item-area">
+              <div class="np3-result-bottom-item">
+                <div class="np3-result-profile-img"> <span class="profie-img">H</span> <span class="profile-check"><i class="fas fa-check"></i></span> </div>
+                <div class="np3-result-profile-text">
+                  <ul>
+                    <li>
+                      <div class="star-block"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <div class="np3-li-fobo"><span class="np3-li-date">12/29/20</span> about <strong>#FOBO - Month to Month</strong></div>
+                    </li>
+                    <li><span class="verifeid">Verifeid</span> Melodie Perez</li>
+                  </ul>
+                </div>
+              </div>
+              <p>#FOBO - Month to Month</p>
+            </div>
+            <div class="np3-result-bottom-item-area">
+              <div class="np3-result-bottom-item">
+                <div class="np3-result-profile-img"> <span class="profie-img">X</span> <span class="profile-check"><i class="fas fa-check"></i></span> </div>
+                <div class="np3-result-profile-text">
+                  <ul>
+                    <li>
+                      <div class="star-block"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <div class="np3-li-fobo"><span class="np3-li-date">12/29/20</span> about <strong>#FOBO - Month to Month</strong></div>
+                    </li>
+                    <li><span class="verifeid">Verifeid</span> Melodie Perez</li>
+                  </ul>
+                </div>
+              </div>
+              <p>#FOBO - Month to Month</p>
+            </div>
+            <div class="np3-result-bottom-item-area">
+              <div class="np3-result-bottom-item">
+                <div class="np3-result-profile-img"> <span class="profie-img">D</span> <span class="profile-check"><i class="fas fa-check"></i></span> </div>
+                <div class="np3-result-profile-text">
+                  <ul>
+                    <li>
+                      <div class="star-block"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <div class="np3-li-fobo"><span class="np3-li-date">12/29/20</span> about <strong>#FOBO - Month to Month</strong></div>
+                    </li>
+                    <li><span class="verifeid">Verifeid</span> Melodie Perez</li>
+                  </ul>
+                </div>
+              </div>
+              <p>#FOBO - Month to Month</p>
+            </div>
+            <div class="np3-result-bottom-item-area">
+              <div class="np3-result-bottom-item">
+                <div class="np3-result-profile-img"> <span class="profie-img">R</span> <span class="profile-check"><i class="fas fa-check"></i></span> </div>
+                <div class="np3-result-profile-text">
+                  <ul>
+                    <li>
+                      <div class="star-block"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <div class="np3-li-fobo"><span class="np3-li-date">12/29/20</span> about <strong>#FOBO - Month to Month</strong></div>
+                    </li>
+                    <li><span class="verifeid">Verifeid</span> Melodie Perez</li>
+                  </ul>
+                </div>
+              </div>
+              <p>#FOBO - Month to Month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer start -->
+<footer class="site-footer">
+  <div class="footer-menu-group">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          <p>© 2020 Dermala</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="footer-terms">
+            <ul>
+              <li><a href="#">Terms of use</a></li>
+              <li><a href="#">Privecy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="bottom-social"> <a href="#" class="fb-icon"><i class="fab fa-facebook-f"></i></a> <a href="#" class="instagram-icon"><i class="fab fa-instagram"></i></a> <a href="#" class="twitter-icon"><i class="fab fa-twitter"></i></a> <a href="#" class="youtube-icon"><i class="fab fa-youtube"></i></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer end --> 
+
+<!-- Start scroll top -->
+<div class="scrollup"><i class="fas fa-chevron-up"></i></div>
+<!-- End scroll top --> 
+
+<!-- Bootstrap JS --> 
+<script src="assets/js/bootstrap.min.js"></script> 
+
+<!-- slick slider JS --> 
+<script src="assets/js/slick.min.js"></script> 
+
+<!-- WOW JS --> 
+<script src="assets/js/wow-1.3.0.min.js"></script> 
+
+<!-- Active JS --> 
+<script src="assets/js/active-before-after.js"></script> 
+<script src="assets/js/active.js"></script>
+</body>
+</html>
